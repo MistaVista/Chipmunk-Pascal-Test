@@ -1,0 +1,24 @@
+unit UCanon;
+
+interface
+
+uses
+  UBox;
+
+type
+  TCanon = class(TBox)
+  private
+    angle: Real;
+  public
+     procedure Draw; override;
+  end;
+
+implementation
+
+procedure TCanon.Draw;
+begin
+
+end;
+
+end.
+ 
